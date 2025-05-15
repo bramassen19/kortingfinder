@@ -1,20 +1,1841 @@
 {
-  "laatst_bijgewerkt": "2025-05-15T18:48:04.274587",
+  "laatst_bijgewerkt": "2025-05-15T23:36:29.810309",
   "kortingscodes": [
     {
       "bedrijf": "Zalando",
-      "code": "ZALANDODEAL10",
-      "geldig_tot": "2025-06-01"
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/zalando"
     },
     {
-      "bedrijf": "Thuisbezorgd",
-      "code": "ETEN5EURO",
-      "geldig_tot": "2025-05-30"
+      "bedrijf": "Zalando",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/zalando"
+    },
+    {
+      "bedrijf": "Zalando",
+      "code": "ZALANDO",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/zalando"
+    },
+    {
+      "bedrijf": "Zalando",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/zalando"
+    },
+    {
+      "bedrijf": "Zalando",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/zalando"
+    },
+    {
+      "bedrijf": "Zalando",
+      "code": "ZALANDOSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
     },
     {
       "bedrijf": "Coolblue",
-      "code": "KOEL2025",
-      "geldig_tot": "2025-06-15"
+      "code": "NIEUWE",
+      "geldig_tot": "",
+      "bron": "https://www.acties.nl/coolblue"
+    },
+    {
+      "bedrijf": "Coolblue",
+      "code": "WINKELS",
+      "geldig_tot": "",
+      "bron": "https://www.acties.nl/coolblue"
+    },
+    {
+      "bedrijf": "Coolblue",
+      "code": "WERKTE",
+      "geldig_tot": "",
+      "bron": "https://www.acties.nl/coolblue"
+    },
+    {
+      "bedrijf": "Coolblue",
+      "code": "COOLBLUE",
+      "geldig_tot": "",
+      "bron": "https://www.acties.nl/coolblue"
+    },
+    {
+      "bedrijf": "Coolblue",
+      "code": "ONTVANG",
+      "geldig_tot": "",
+      "bron": "https://www.acties.nl/coolblue"
+    },
+    {
+      "bedrijf": "Coolblue",
+      "code": "COOLBLUESOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Thuisbezorgd",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/thuisbezorgd"
+    },
+    {
+      "bedrijf": "Thuisbezorgd",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/thuisbezorgd"
+    },
+    {
+      "bedrijf": "Thuisbezorgd",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/thuisbezorgd"
+    },
+    {
+      "bedrijf": "Thuisbezorgd",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/thuisbezorgd"
+    },
+    {
+      "bedrijf": "Thuisbezorgd",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/thuisbezorgd"
+    },
+    {
+      "bedrijf": "Thuisbezorgd",
+      "code": "THUISBEZORGDSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "H&M",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/hm"
+    },
+    {
+      "bedrijf": "H&M",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/hm"
+    },
+    {
+      "bedrijf": "H&M",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/hm"
+    },
+    {
+      "bedrijf": "H&M",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/hm"
+    },
+    {
+      "bedrijf": "H&M",
+      "code": "KUNNEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/hm"
+    },
+    {
+      "bedrijf": "H&M",
+      "code": "H&MSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Nike",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/nike"
+    },
+    {
+      "bedrijf": "Nike",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/nike"
+    },
+    {
+      "bedrijf": "Nike",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/nike"
+    },
+    {
+      "bedrijf": "Nike",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/nike"
+    },
+    {
+      "bedrijf": "Nike",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/nike"
+    },
+    {
+      "bedrijf": "Nike",
+      "code": "NIKESOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Adidas",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/adidas"
+    },
+    {
+      "bedrijf": "Adidas",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/adidas"
+    },
+    {
+      "bedrijf": "Adidas",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/adidas"
+    },
+    {
+      "bedrijf": "Adidas",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/adidas"
+    },
+    {
+      "bedrijf": "Adidas",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/adidas"
+    },
+    {
+      "bedrijf": "Adidas",
+      "code": "ADIDASSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "ASOS",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/asos"
+    },
+    {
+      "bedrijf": "ASOS",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/asos"
+    },
+    {
+      "bedrijf": "ASOS",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/asos"
+    },
+    {
+      "bedrijf": "ASOS",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/asos"
+    },
+    {
+      "bedrijf": "ASOS",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/asos"
+    },
+    {
+      "bedrijf": "ASOS",
+      "code": "ASOSSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "MediaMarkt",
+      "code": "NIEUWE",
+      "geldig_tot": "",
+      "bron": "https://www.acties.nl/mediamarkt"
+    },
+    {
+      "bedrijf": "MediaMarkt",
+      "code": "CODES",
+      "geldig_tot": "",
+      "bron": "https://www.acties.nl/mediamarkt"
+    },
+    {
+      "bedrijf": "MediaMarkt",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.acties.nl/mediamarkt"
+    },
+    {
+      "bedrijf": "MediaMarkt",
+      "code": "DEALS",
+      "geldig_tot": "",
+      "bron": "https://www.acties.nl/mediamarkt"
+    },
+    {
+      "bedrijf": "MediaMarkt",
+      "code": "AMAZON",
+      "geldig_tot": "",
+      "bron": "https://www.acties.nl/mediamarkt"
+    },
+    {
+      "bedrijf": "MediaMarkt",
+      "code": "MEDIAMARKTSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Bol.com",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/bolcom"
+    },
+    {
+      "bedrijf": "Bol.com",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/bolcom"
+    },
+    {
+      "bedrijf": "Bol.com",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/bolcom"
+    },
+    {
+      "bedrijf": "Bol.com",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/bolcom"
+    },
+    {
+      "bedrijf": "Bol.com",
+      "code": "KUNNEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/bolcom"
+    },
+    {
+      "bedrijf": "Bol.com",
+      "code": "BOL.COMSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "HelloFresh",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/hellofresh"
+    },
+    {
+      "bedrijf": "HelloFresh",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/hellofresh"
+    },
+    {
+      "bedrijf": "HelloFresh",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/hellofresh"
+    },
+    {
+      "bedrijf": "HelloFresh",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/hellofresh"
+    },
+    {
+      "bedrijf": "HelloFresh",
+      "code": "KUNNEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/hellofresh"
+    },
+    {
+      "bedrijf": "HelloFresh",
+      "code": "HELLOFRESHSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Gymshark",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/gymshark"
+    },
+    {
+      "bedrijf": "Gymshark",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/gymshark"
+    },
+    {
+      "bedrijf": "Gymshark",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/gymshark"
+    },
+    {
+      "bedrijf": "Gymshark",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/gymshark"
+    },
+    {
+      "bedrijf": "Gymshark",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/gymshark"
+    },
+    {
+      "bedrijf": "Gymshark",
+      "code": "GYMSHARKSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "MyProtein",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/myprotein"
+    },
+    {
+      "bedrijf": "MyProtein",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/myprotein"
+    },
+    {
+      "bedrijf": "MyProtein",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/myprotein"
+    },
+    {
+      "bedrijf": "MyProtein",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/myprotein"
+    },
+    {
+      "bedrijf": "MyProtein",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/myprotein"
+    },
+    {
+      "bedrijf": "MyProtein",
+      "code": "MYPROTEINSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "XXL Nutrition",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/xxl-nutrition"
+    },
+    {
+      "bedrijf": "XXL Nutrition",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/xxl-nutrition"
+    },
+    {
+      "bedrijf": "XXL Nutrition",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/xxl-nutrition"
+    },
+    {
+      "bedrijf": "XXL Nutrition",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/xxl-nutrition"
+    },
+    {
+      "bedrijf": "XXL Nutrition",
+      "code": "KUNNEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/xxl-nutrition"
+    },
+    {
+      "bedrijf": "XXL Nutrition",
+      "code": "XXL NUTRITIONSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Pink Gellac",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/pink-gellac"
+    },
+    {
+      "bedrijf": "Pink Gellac",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/pink-gellac"
+    },
+    {
+      "bedrijf": "Pink Gellac",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/pink-gellac"
+    },
+    {
+      "bedrijf": "Pink Gellac",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/pink-gellac"
+    },
+    {
+      "bedrijf": "Pink Gellac",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/pink-gellac"
+    },
+    {
+      "bedrijf": "Pink Gellac",
+      "code": "PINK GELLACSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Ici Paris XL",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/iciparisxl"
+    },
+    {
+      "bedrijf": "Ici Paris XL",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/iciparisxl"
+    },
+    {
+      "bedrijf": "Ici Paris XL",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/iciparisxl"
+    },
+    {
+      "bedrijf": "Ici Paris XL",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/iciparisxl"
+    },
+    {
+      "bedrijf": "Ici Paris XL",
+      "code": "KUNNEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/iciparisxl"
+    },
+    {
+      "bedrijf": "Ici Paris XL",
+      "code": "ICI PARIS XLSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Douglas",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/douglas"
+    },
+    {
+      "bedrijf": "Douglas",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/douglas"
+    },
+    {
+      "bedrijf": "Douglas",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/douglas"
+    },
+    {
+      "bedrijf": "Douglas",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/douglas"
+    },
+    {
+      "bedrijf": "Douglas",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/douglas"
+    },
+    {
+      "bedrijf": "Douglas",
+      "code": "DOUGLASSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Etos",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/etos"
+    },
+    {
+      "bedrijf": "Etos",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/etos"
+    },
+    {
+      "bedrijf": "Etos",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/etos"
+    },
+    {
+      "bedrijf": "Etos",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/etos"
+    },
+    {
+      "bedrijf": "Etos",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/etos"
+    },
+    {
+      "bedrijf": "Etos",
+      "code": "ETOSSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Kruidvat",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/kruidvat"
+    },
+    {
+      "bedrijf": "Kruidvat",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/kruidvat"
+    },
+    {
+      "bedrijf": "Kruidvat",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/kruidvat"
+    },
+    {
+      "bedrijf": "Kruidvat",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/kruidvat"
+    },
+    {
+      "bedrijf": "Kruidvat",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/kruidvat"
+    },
+    {
+      "bedrijf": "Kruidvat",
+      "code": "KRUIDVATSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Wehkamp",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/wehkamp"
+    },
+    {
+      "bedrijf": "Wehkamp",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/wehkamp"
+    },
+    {
+      "bedrijf": "Wehkamp",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/wehkamp"
+    },
+    {
+      "bedrijf": "Wehkamp",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/wehkamp"
+    },
+    {
+      "bedrijf": "Wehkamp",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/wehkamp"
+    },
+    {
+      "bedrijf": "Wehkamp",
+      "code": "WEHKAMPSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Otto",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/otto"
+    },
+    {
+      "bedrijf": "Otto",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/otto"
+    },
+    {
+      "bedrijf": "Otto",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/otto"
+    },
+    {
+      "bedrijf": "Otto",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/otto"
+    },
+    {
+      "bedrijf": "Otto",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/otto"
+    },
+    {
+      "bedrijf": "Otto",
+      "code": "OTTOSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Only",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/only"
+    },
+    {
+      "bedrijf": "Only",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/only"
+    },
+    {
+      "bedrijf": "Only",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/only"
+    },
+    {
+      "bedrijf": "Only",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/only"
+    },
+    {
+      "bedrijf": "Only",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/only"
+    },
+    {
+      "bedrijf": "Only",
+      "code": "ONLYSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Vero Moda",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/veromoda"
+    },
+    {
+      "bedrijf": "Vero Moda",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/veromoda"
+    },
+    {
+      "bedrijf": "Vero Moda",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/veromoda"
+    },
+    {
+      "bedrijf": "Vero Moda",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/veromoda"
+    },
+    {
+      "bedrijf": "Vero Moda",
+      "code": "KUNNEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/veromoda"
+    },
+    {
+      "bedrijf": "Vero Moda",
+      "code": "VERO MODASOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "G-Star",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/g-star"
+    },
+    {
+      "bedrijf": "G-Star",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/g-star"
+    },
+    {
+      "bedrijf": "G-Star",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/g-star"
+    },
+    {
+      "bedrijf": "G-Star",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/g-star"
+    },
+    {
+      "bedrijf": "G-Star",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/g-star"
+    },
+    {
+      "bedrijf": "G-Star",
+      "code": "G-STARSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Levi's",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/levis"
+    },
+    {
+      "bedrijf": "Levi's",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/levis"
+    },
+    {
+      "bedrijf": "Levi's",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/levis"
+    },
+    {
+      "bedrijf": "Levi's",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/levis"
+    },
+    {
+      "bedrijf": "Levi's",
+      "code": "LEVIS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/levis"
+    },
+    {
+      "bedrijf": "Levi's",
+      "code": "LEVI'SSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "New Balance",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/newbalance"
+    },
+    {
+      "bedrijf": "New Balance",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/newbalance"
+    },
+    {
+      "bedrijf": "New Balance",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/newbalance"
+    },
+    {
+      "bedrijf": "New Balance",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/newbalance"
+    },
+    {
+      "bedrijf": "New Balance",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/newbalance"
+    },
+    {
+      "bedrijf": "New Balance",
+      "code": "NEW BALANCESOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Boohoo",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/boohoo"
+    },
+    {
+      "bedrijf": "Boohoo",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/boohoo"
+    },
+    {
+      "bedrijf": "Boohoo",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/boohoo"
+    },
+    {
+      "bedrijf": "Boohoo",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/boohoo"
+    },
+    {
+      "bedrijf": "Boohoo",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/boohoo"
+    },
+    {
+      "bedrijf": "Boohoo",
+      "code": "BOOHOOSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "NA-KD",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/nakd"
+    },
+    {
+      "bedrijf": "NA-KD",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/nakd"
+    },
+    {
+      "bedrijf": "NA-KD",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/nakd"
+    },
+    {
+      "bedrijf": "NA-KD",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/nakd"
+    },
+    {
+      "bedrijf": "NA-KD",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/nakd"
+    },
+    {
+      "bedrijf": "NA-KD",
+      "code": "NA-KDSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Shein",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/shein"
+    },
+    {
+      "bedrijf": "Shein",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/shein"
+    },
+    {
+      "bedrijf": "Shein",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/shein"
+    },
+    {
+      "bedrijf": "Shein",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/shein"
+    },
+    {
+      "bedrijf": "Shein",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/shein"
+    },
+    {
+      "bedrijf": "Shein",
+      "code": "SHEINSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "AliExpress",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/aliexpress"
+    },
+    {
+      "bedrijf": "AliExpress",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/aliexpress"
+    },
+    {
+      "bedrijf": "AliExpress",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/aliexpress"
+    },
+    {
+      "bedrijf": "AliExpress",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/aliexpress"
+    },
+    {
+      "bedrijf": "AliExpress",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/aliexpress"
+    },
+    {
+      "bedrijf": "AliExpress",
+      "code": "ALIEXPRESSSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Amazon",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/amazon"
+    },
+    {
+      "bedrijf": "Amazon",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/amazon"
+    },
+    {
+      "bedrijf": "Amazon",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/amazon"
+    },
+    {
+      "bedrijf": "Amazon",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/amazon"
+    },
+    {
+      "bedrijf": "Amazon",
+      "code": "AMAZON",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/amazon"
+    },
+    {
+      "bedrijf": "Amazon",
+      "code": "AMAZONSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Vistaprint",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/vistaprint"
+    },
+    {
+      "bedrijf": "Vistaprint",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/vistaprint"
+    },
+    {
+      "bedrijf": "Vistaprint",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/vistaprint"
+    },
+    {
+      "bedrijf": "Vistaprint",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/vistaprint"
+    },
+    {
+      "bedrijf": "Vistaprint",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/vistaprint"
+    },
+    {
+      "bedrijf": "Vistaprint",
+      "code": "VISTAPRINTSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Ticketmaster",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/ticketmaster"
+    },
+    {
+      "bedrijf": "Ticketmaster",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/ticketmaster"
+    },
+    {
+      "bedrijf": "Ticketmaster",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/ticketmaster"
+    },
+    {
+      "bedrijf": "Ticketmaster",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/ticketmaster"
+    },
+    {
+      "bedrijf": "Ticketmaster",
+      "code": "KUNNEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/ticketmaster"
+    },
+    {
+      "bedrijf": "Ticketmaster",
+      "code": "TICKETMASTERSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Gorillas",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/gorillas"
+    },
+    {
+      "bedrijf": "Gorillas",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/gorillas"
+    },
+    {
+      "bedrijf": "Gorillas",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/gorillas"
+    },
+    {
+      "bedrijf": "Gorillas",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/gorillas"
+    },
+    {
+      "bedrijf": "Gorillas",
+      "code": "KUNNEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/gorillas"
+    },
+    {
+      "bedrijf": "Gorillas",
+      "code": "GORILLASSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Flink",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/flink"
+    },
+    {
+      "bedrijf": "Flink",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/flink"
+    },
+    {
+      "bedrijf": "Flink",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/flink"
+    },
+    {
+      "bedrijf": "Flink",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/flink"
+    },
+    {
+      "bedrijf": "Flink",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/flink"
+    },
+    {
+      "bedrijf": "Flink",
+      "code": "FLINKSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Uber Eats",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/ubereats"
+    },
+    {
+      "bedrijf": "Uber Eats",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/ubereats"
+    },
+    {
+      "bedrijf": "Uber Eats",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/ubereats"
+    },
+    {
+      "bedrijf": "Uber Eats",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/ubereats"
+    },
+    {
+      "bedrijf": "Uber Eats",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/ubereats"
+    },
+    {
+      "bedrijf": "Uber Eats",
+      "code": "UBER EATSSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Swapfiets",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/swapfiets"
+    },
+    {
+      "bedrijf": "Swapfiets",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/swapfiets"
+    },
+    {
+      "bedrijf": "Swapfiets",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/swapfiets"
+    },
+    {
+      "bedrijf": "Swapfiets",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/swapfiets"
+    },
+    {
+      "bedrijf": "Swapfiets",
+      "code": "KUNNEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/swapfiets"
+    },
+    {
+      "bedrijf": "Swapfiets",
+      "code": "SWAPFIETSSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Fietsvoordeelshop",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/fietsvoordeelshop"
+    },
+    {
+      "bedrijf": "Fietsvoordeelshop",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/fietsvoordeelshop"
+    },
+    {
+      "bedrijf": "Fietsvoordeelshop",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/fietsvoordeelshop"
+    },
+    {
+      "bedrijf": "Fietsvoordeelshop",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/fietsvoordeelshop"
+    },
+    {
+      "bedrijf": "Fietsvoordeelshop",
+      "code": "KUNNEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/fietsvoordeelshop"
+    },
+    {
+      "bedrijf": "Fietsvoordeelshop",
+      "code": "FIETSVOORDEELSHOPSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Decathlon",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/decathlon"
+    },
+    {
+      "bedrijf": "Decathlon",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/decathlon"
+    },
+    {
+      "bedrijf": "Decathlon",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/decathlon"
+    },
+    {
+      "bedrijf": "Decathlon",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/decathlon"
+    },
+    {
+      "bedrijf": "Decathlon",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/decathlon"
+    },
+    {
+      "bedrijf": "Decathlon",
+      "code": "DECATHLONSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Intersport",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/intersport"
+    },
+    {
+      "bedrijf": "Intersport",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/intersport"
+    },
+    {
+      "bedrijf": "Intersport",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/intersport"
+    },
+    {
+      "bedrijf": "Intersport",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/intersport"
+    },
+    {
+      "bedrijf": "Intersport",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/intersport"
+    },
+    {
+      "bedrijf": "Intersport",
+      "code": "INTERSPORTSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Aktiesport",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/aktiesport"
+    },
+    {
+      "bedrijf": "Aktiesport",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/aktiesport"
+    },
+    {
+      "bedrijf": "Aktiesport",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/aktiesport"
+    },
+    {
+      "bedrijf": "Aktiesport",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/aktiesport"
+    },
+    {
+      "bedrijf": "Aktiesport",
+      "code": "KUNNEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/aktiesport"
+    },
+    {
+      "bedrijf": "Aktiesport",
+      "code": "AKTIESPORTSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Blokker",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/blokker"
+    },
+    {
+      "bedrijf": "Blokker",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/blokker"
+    },
+    {
+      "bedrijf": "Blokker",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/blokker"
+    },
+    {
+      "bedrijf": "Blokker",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/blokker"
+    },
+    {
+      "bedrijf": "Blokker",
+      "code": "KUNNEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/blokker"
+    },
+    {
+      "bedrijf": "Blokker",
+      "code": "BLOKKERSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "HEMA",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/hema"
+    },
+    {
+      "bedrijf": "HEMA",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/hema"
+    },
+    {
+      "bedrijf": "HEMA",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/hema"
+    },
+    {
+      "bedrijf": "HEMA",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/hema"
+    },
+    {
+      "bedrijf": "HEMA",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/hema"
+    },
+    {
+      "bedrijf": "HEMA",
+      "code": "HEMASOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Leen Bakker",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/leenbakker"
+    },
+    {
+      "bedrijf": "Leen Bakker",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/leenbakker"
+    },
+    {
+      "bedrijf": "Leen Bakker",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/leenbakker"
+    },
+    {
+      "bedrijf": "Leen Bakker",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/leenbakker"
+    },
+    {
+      "bedrijf": "Leen Bakker",
+      "code": "KUNNEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/leenbakker"
+    },
+    {
+      "bedrijf": "Leen Bakker",
+      "code": "LEEN BAKKERSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "IKEA",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/ikea"
+    },
+    {
+      "bedrijf": "IKEA",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/ikea"
+    },
+    {
+      "bedrijf": "IKEA",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/ikea"
+    },
+    {
+      "bedrijf": "IKEA",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/ikea"
+    },
+    {
+      "bedrijf": "IKEA",
+      "code": "KUNNEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/ikea"
+    },
+    {
+      "bedrijf": "IKEA",
+      "code": "IKEASOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Xenos",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/xenos"
+    },
+    {
+      "bedrijf": "Xenos",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/xenos"
+    },
+    {
+      "bedrijf": "Xenos",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/xenos"
+    },
+    {
+      "bedrijf": "Xenos",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/xenos"
+    },
+    {
+      "bedrijf": "Xenos",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/xenos"
+    },
+    {
+      "bedrijf": "Xenos",
+      "code": "XENOSSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Praxis",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/praxis"
+    },
+    {
+      "bedrijf": "Praxis",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/praxis"
+    },
+    {
+      "bedrijf": "Praxis",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/praxis"
+    },
+    {
+      "bedrijf": "Praxis",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/praxis"
+    },
+    {
+      "bedrijf": "Praxis",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/praxis"
+    },
+    {
+      "bedrijf": "Praxis",
+      "code": "PRAXISSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Gamma",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/gamma"
+    },
+    {
+      "bedrijf": "Gamma",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/gamma"
+    },
+    {
+      "bedrijf": "Gamma",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/gamma"
+    },
+    {
+      "bedrijf": "Gamma",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/gamma"
+    },
+    {
+      "bedrijf": "Gamma",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/gamma"
+    },
+    {
+      "bedrijf": "Gamma",
+      "code": "GAMMASOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Karwei",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/karwei"
+    },
+    {
+      "bedrijf": "Karwei",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/karwei"
+    },
+    {
+      "bedrijf": "Karwei",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/karwei"
+    },
+    {
+      "bedrijf": "Karwei",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/karwei"
+    },
+    {
+      "bedrijf": "Karwei",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/karwei"
+    },
+    {
+      "bedrijf": "Karwei",
+      "code": "KARWEISOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Lidl",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/lidl"
+    },
+    {
+      "bedrijf": "Lidl",
+      "code": "VERZENDEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/lidl"
+    },
+    {
+      "bedrijf": "Lidl",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/lidl"
+    },
+    {
+      "bedrijf": "Lidl",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/lidl"
+    },
+    {
+      "bedrijf": "Lidl",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/lidl"
+    },
+    {
+      "bedrijf": "Lidl",
+      "code": "LIDLSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Albert Heijn",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/albertheijn"
+    },
+    {
+      "bedrijf": "Albert Heijn",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/albertheijn"
+    },
+    {
+      "bedrijf": "Albert Heijn",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/albertheijn"
+    },
+    {
+      "bedrijf": "Albert Heijn",
+      "code": "PARTNERS",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/albertheijn"
+    },
+    {
+      "bedrijf": "Albert Heijn",
+      "code": "KUNNEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/albertheijn"
+    },
+    {
+      "bedrijf": "Albert Heijn",
+      "code": "ALBERT HEIJNSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
+    },
+    {
+      "bedrijf": "Jumbo",
+      "code": "GEBRUIK",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/jumbo"
+    },
+    {
+      "bedrijf": "Jumbo",
+      "code": "MAKEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/jumbo"
+    },
+    {
+      "bedrijf": "Jumbo",
+      "code": "JUMBO",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/jumbo"
+    },
+    {
+      "bedrijf": "Jumbo",
+      "code": "KORTING",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/jumbo"
+    },
+    {
+      "bedrijf": "Jumbo",
+      "code": "DELEN",
+      "geldig_tot": "",
+      "bron": "https://www.kortingscode.nl/jumbo"
+    },
+    {
+      "bedrijf": "Jumbo",
+      "code": "JUMBOSOCIAL",
+      "geldig_tot": "",
+      "bron": "Twitter"
     }
   ]
 }

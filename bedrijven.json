@@ -1,0 +1,257 @@
+[
+  {
+    "naam": "Zalando",
+    "categorie": "Kleding",
+    "bron": "https://www.kortingscode.nl/zalando"
+  },
+  {
+    "naam": "Coolblue",
+    "categorie": "Elektronica",
+    "bron": "https://www.acties.nl/coolblue"
+  },
+  {
+    "naam": "Thuisbezorgd",
+    "categorie": "Bezorging",
+    "bron": "https://www.kortingscode.nl/thuisbezorgd"
+  },
+  {
+    "naam": "H&M",
+    "categorie": "Kleding",
+    "bron": "https://www.kortingscode.nl/hm"
+  },
+  {
+    "naam": "Nike",
+    "categorie": "Sport",
+    "bron": "https://www.kortingscode.nl/nike"
+  },
+  {
+    "naam": "Adidas",
+    "categorie": "Sport",
+    "bron": "https://www.kortingscode.nl/adidas"
+  },
+  {
+    "naam": "ASOS",
+    "categorie": "Kleding",
+    "bron": "https://www.kortingscode.nl/asos"
+  },
+  {
+    "naam": "MediaMarkt",
+    "categorie": "Elektronica",
+    "bron": "https://www.acties.nl/mediamarkt"
+  },
+  {
+    "naam": "Bol.com",
+    "categorie": "Algemeen",
+    "bron": "https://www.kortingscode.nl/bolcom"
+  },
+  {
+    "naam": "HelloFresh",
+    "categorie": "Bezorging",
+    "bron": "https://www.kortingscode.nl/hellofresh"
+  },
+  {
+    "naam": "Gymshark",
+    "categorie": "Sport",
+    "bron": "https://www.kortingscode.nl/gymshark"
+  },
+  {
+    "naam": "MyProtein",
+    "categorie": "Voeding",
+    "bron": "https://www.kortingscode.nl/myprotein"
+  },
+  {
+    "naam": "XXL Nutrition",
+    "categorie": "Voeding",
+    "bron": "https://www.kortingscode.nl/xxl-nutrition"
+  },
+  {
+    "naam": "Pink Gellac",
+    "categorie": "Beauty",
+    "bron": "https://www.kortingscode.nl/pink-gellac"
+  },
+  {
+    "naam": "Ici Paris XL",
+    "categorie": "Beauty",
+    "bron": "https://www.kortingscode.nl/iciparisxl"
+  },
+  {
+    "naam": "Douglas",
+    "categorie": "Beauty",
+    "bron": "https://www.kortingscode.nl/douglas"
+  },
+  {
+    "naam": "Etos",
+    "categorie": "Drogist",
+    "bron": "https://www.kortingscode.nl/etos"
+  },
+  {
+    "naam": "Kruidvat",
+    "categorie": "Drogist",
+    "bron": "https://www.kortingscode.nl/kruidvat"
+  },
+  {
+    "naam": "Wehkamp",
+    "categorie": "Kleding",
+    "bron": "https://www.kortingscode.nl/wehkamp"
+  },
+  {
+    "naam": "Otto",
+    "categorie": "Kleding",
+    "bron": "https://www.kortingscode.nl/otto"
+  },
+  {
+    "naam": "Only",
+    "categorie": "Kleding",
+    "bron": "https://www.kortingscode.nl/only"
+  },
+  {
+    "naam": "Vero Moda",
+    "categorie": "Kleding",
+    "bron": "https://www.kortingscode.nl/veromoda"
+  },
+  {
+    "naam": "G-Star",
+    "categorie": "Kleding",
+    "bron": "https://www.kortingscode.nl/g-star"
+  },
+  {
+    "naam": "Levi's",
+    "categorie": "Kleding",
+    "bron": "https://www.kortingscode.nl/levis"
+  },
+  {
+    "naam": "New Balance",
+    "categorie": "Sport",
+    "bron": "https://www.kortingscode.nl/newbalance"
+  },
+  {
+    "naam": "Boohoo",
+    "categorie": "Kleding",
+    "bron": "https://www.kortingscode.nl/boohoo"
+  },
+  {
+    "naam": "NA-KD",
+    "categorie": "Kleding",
+    "bron": "https://www.kortingscode.nl/nakd"
+  },
+  {
+    "naam": "Shein",
+    "categorie": "Kleding",
+    "bron": "https://www.kortingscode.nl/shein"
+  },
+  {
+    "naam": "AliExpress",
+    "categorie": "Internationaal",
+    "bron": "https://www.kortingscode.nl/aliexpress"
+  },
+  {
+    "naam": "Amazon",
+    "categorie": "Internationaal",
+    "bron": "https://www.kortingscode.nl/amazon"
+  },
+  {
+    "naam": "Vistaprint",
+    "categorie": "Print",
+    "bron": "https://www.kortingscode.nl/vistaprint"
+  },
+  {
+    "naam": "Ticketmaster",
+    "categorie": "Entertainment",
+    "bron": "https://www.kortingscode.nl/ticketmaster"
+  },
+  {
+    "naam": "Gorillas",
+    "categorie": "Bezorging",
+    "bron": "https://www.kortingscode.nl/gorillas"
+  },
+  {
+    "naam": "Flink",
+    "categorie": "Bezorging",
+    "bron": "https://www.kortingscode.nl/flink"
+  },
+  {
+    "naam": "Uber Eats",
+    "categorie": "Bezorging",
+    "bron": "https://www.kortingscode.nl/ubereats"
+  },
+  {
+    "naam": "Swapfiets",
+    "categorie": "Mobiliteit",
+    "bron": "https://www.kortingscode.nl/swapfiets"
+  },
+  {
+    "naam": "Fietsvoordeelshop",
+    "categorie": "Mobiliteit",
+    "bron": "https://www.kortingscode.nl/fietsvoordeelshop"
+  },
+  {
+    "naam": "Decathlon",
+    "categorie": "Sport",
+    "bron": "https://www.kortingscode.nl/decathlon"
+  },
+  {
+    "naam": "Intersport",
+    "categorie": "Sport",
+    "bron": "https://www.kortingscode.nl/intersport"
+  },
+  {
+    "naam": "Aktiesport",
+    "categorie": "Sport",
+    "bron": "https://www.kortingscode.nl/aktiesport"
+  },
+  {
+    "naam": "Blokker",
+    "categorie": "Wonen",
+    "bron": "https://www.kortingscode.nl/blokker"
+  },
+  {
+    "naam": "HEMA",
+    "categorie": "Wonen",
+    "bron": "https://www.kortingscode.nl/hema"
+  },
+  {
+    "naam": "Leen Bakker",
+    "categorie": "Wonen",
+    "bron": "https://www.kortingscode.nl/leenbakker"
+  },
+  {
+    "naam": "IKEA",
+    "categorie": "Wonen",
+    "bron": "https://www.kortingscode.nl/ikea"
+  },
+  {
+    "naam": "Xenos",
+    "categorie": "Wonen",
+    "bron": "https://www.kortingscode.nl/xenos"
+  },
+  {
+    "naam": "Praxis",
+    "categorie": "Doe-het-zelf",
+    "bron": "https://www.kortingscode.nl/praxis"
+  },
+  {
+    "naam": "Gamma",
+    "categorie": "Doe-het-zelf",
+    "bron": "https://www.kortingscode.nl/gamma"
+  },
+  {
+    "naam": "Karwei",
+    "categorie": "Doe-het-zelf",
+    "bron": "https://www.kortingscode.nl/karwei"
+  },
+  {
+    "naam": "Lidl",
+    "categorie": "Supermarkt",
+    "bron": "https://www.kortingscode.nl/lidl"
+  },
+  {
+    "naam": "Albert Heijn",
+    "categorie": "Supermarkt",
+    "bron": "https://www.kortingscode.nl/albertheijn"
+  },
+  {
+    "naam": "Jumbo",
+    "categorie": "Supermarkt",
+    "bron": "https://www.kortingscode.nl/jumbo"
+  }
+]
