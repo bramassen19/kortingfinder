@@ -2,7 +2,7 @@ name: Dagelijkse scraper & deploy
 
 on:
   schedule:
-    - cron: '0 4 * * *'  # Elke dag om 04:00 UTC
+    - cron: '0 4 * * *'
   workflow_dispatch:
 
 jobs:
@@ -18,8 +18,11 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Voer scraper uit
-        run: python scraper.py
+      - name: Installeer OpenAI package
+        run: pip install openai
+
+      - name: Voer AI-scraper uit
+        run: python scraper_ai.py
 
       - name: Deploy naar Firebase Hosting
         uses: FirebaseExtended/action-hosting-deploy@v0
