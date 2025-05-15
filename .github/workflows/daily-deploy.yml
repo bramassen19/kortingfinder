@@ -1,0 +1,30 @@
+name: Dagelijkse scraper & deploy
+
+on:
+  schedule:
+    - cron: '0 4 * * *'  # Elke dag om 04:00 UTC
+  workflow_dispatch:
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repo klonen
+        uses: actions/checkout@v3
+
+      - name: Installeer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Voer scraper uit
+        run: python scraper.py
+
+      - name: Deploy naar Firebase Hosting
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: "${{ secrets.GITHUB_TOKEN }}"
+          firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_KORTINGFINDER }}"
+          channelId: live
+          projectId: kortingfinder
