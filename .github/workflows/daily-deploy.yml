@@ -18,8 +18,8 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Installeer OpenAI package
-        run: pip install openai
+      - name: Installeer vereiste Python packages
+        run: pip install openai requests beautifulsoup4
 
       - name: Voer AI-scraper uit
         run: python scraper_ai.py
