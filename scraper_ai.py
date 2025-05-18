@@ -1,21 +1,16 @@
 import json
 import requests
 from bs4 import BeautifulSoup
-from datetime import datetime, timedelta
+from datetime import datetime
 import openai
 import os
+import shutil  # ✅ toegevoegd voor kopiëren
 
 openai.api_key = os.environ.get("OPENAI_API_KEY")
 
 # Bedrijvenlijst laden
 with open("bedrijven.json", "r") as f:
     bedrijven = json.load(f)
-
-def is_recent(datum):
-    try:
-        return (datetime.now() - datum).days <= 14
-    except:
-        return False
 
 def ai_bevestiging(bedrijf, code):
     try:
@@ -55,9 +50,11 @@ def vind_kortingscodes_op_site(bedrijf, url):
 def scan_influencer_bios(accounts):
     resultaten = []
     for naam in accounts:
-        # Dummy simulatie
         if "@" in naam:
-            resultaten.append({"bron": f"bio van {naam}", "code": naam.replace("@", "")[:5].upper() + "10"})
+            resultaten.append({
+                "bron": f"bio van {naam}",
+                "code": naam.replace("@", "")[:5].upper() + "10"
+            })
     return resultaten
 
 def genereer_json():
@@ -66,13 +63,10 @@ def genereer_json():
         naam = bedrijf.get("naam")
         print(f"Controleren: {naam}")
 
-        # Bepaal URL-veld
         url = bedrijf.get("url") or bedrijf.get("bron")
         influencer_accounts = bedrijf.get("influencer_accounts", [])
-
         codes = []
 
-        # 1. Webshop scraping
         if url:
             kandidaten = vind_kortingscodes_op_site(naam, url)
             for code in kandidaten:
@@ -86,7 +80,6 @@ def genereer_json():
                     if len(codes) >= 5:
                         break
 
-        # 2. Social media bios
         bios = scan_influencer_bios(influencer_accounts)
         for b in bios:
             c = b.get("code")
@@ -100,7 +93,6 @@ def genereer_json():
                 if len(codes) >= 5:
                     break
 
-        # 3. Geen codes gevonden
         if not codes:
             alle_resultaten.append({
                 "bedrijf": naam,
@@ -114,11 +106,17 @@ def genereer_json():
         "kortingscodes": alle_resultaten
     }
 
-    # Save JSON
+    # ✅ Schrijf eerst naar public/
     with open("public/kortingscodes.json", "w") as f:
         json.dump(resultaat, f, indent=2)
-
     print("✅ JSON opgeslagen in public/kortingscodes.json")
+
+    # ✅ Kopieer automatisch naar build/web/
+    try:
+        shutil.copyfile("public/kortingscodes.json", "build/web/kortingscodes.json")
+        print("✅ JSON ook gekopieerd naar build/web/kortingscodes.json")
+    except Exception as e:
+        print(f"⚠️ Kopiëren naar build/web/ mislukt: {e}")
 
 # Start script
 if __name__ == "__main__":

@@ -2,7 +2,7 @@ name: Dagelijkse scraper & deploy
 
 on:
   schedule:
-    - cron: '0 4 * * *'
+    - cron: '0 4 * * *'  # Elke dag om 04:00 UTC
   workflow_dispatch:
 
 jobs:
@@ -18,21 +18,12 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Installeer vereiste Python packages
-        run: pip install openai requests beautifulsoup4
+      - name: Installeer vereisten
+        run: |
+          pip install openai requests beautifulsoup4
 
-      - name: Voer AI-scraper uit
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      - name: Draai scraper met AI-filter
         run: python scraper_ai.py
-
-      - name: Installeer Flutter
-        uses: subosito/flutter-action@v2
-        with:
-          flutter-version: '3.29.3'
-
-      - name: Flutter Web build uitvoeren
-        run: flutter build web
 
       - name: Deploy naar Firebase Hosting
         uses: FirebaseExtended/action-hosting-deploy@v0

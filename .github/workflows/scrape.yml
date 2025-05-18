@@ -1,0 +1,26 @@
+name: Dagelijkse scraping
+
+on:
+  schedule:
+    - cron: '0 8 * * *'  # elke dag om 8:00
+  workflow_dispatch:
+
+jobs:
+  run-scraper:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Installeer Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Installeer vereisten
+        run: pip install -r requirements.txt
+      - name: Draai scraper
+        run: python scraper.py
+      - name: Firebase deploy
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: "${{ secrets.GITHUB_TOKEN }}"
+          firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_KORTINGFINDER }}"
+          channelId: live

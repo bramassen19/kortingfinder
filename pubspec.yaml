@@ -1,6 +1,6 @@
 name: kortingfinder
-description: "A new Flutter project."
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+description: "Een Flutter-app voor het vinden van actuele kortingscodes."
+publish_to: 'none'
 
 version: 1.0.0+1
 
@@ -13,11 +13,12 @@ dependencies:
   cupertino_icons: ^1.0.8
   url_launcher: ^6.2.5
   http: ^0.13.6
+  algolia: ^1.1.2  # ✅ Toegevoegd voor zoekfunctionaliteit met Algolia
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
+  flutter_lints: ^3.0.1
 
 flutter:
   uses-material-design: true
