@@ -30,16 +30,11 @@ jobs:
           echo "ALGOLIA_APP_ID=${{ secrets.ALGOLIA_APP_ID }}" >> .env
           echo "ALGOLIA_ADMIN_KEY=${{ secrets.ALGOLIA_ADMIN_KEY }}" >> .env
 
-      - name: Draai scraper-script
-        run: python kortingfinder_complete.py
-
-      - name: Commit bijgewerkte JSON
+      - name: Draai scraper-script en kopieer JSON
         run: |
-          git config user.name "kortingbot"
-          git config user.email "bot@kortingfinder.app"
-          git add kortingsresultaten_compleet.json
-          git commit -m "Dagelijkse update JSON via scraper"
-          git push
+          python kortingfinder_complete.py
+          mkdir -p public
+          cp kortingsresultaten_compleet.json public/kortingsresultaten_compleet.json
 
       - name: Firebase deploy
         uses: FirebaseExtended/action-hosting-deploy@v0
