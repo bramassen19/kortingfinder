@@ -1,17 +1,16 @@
-name: Dagelijkse scraping
-
-on:
-  schedule:
-    - cron: '0 8 * * *'
-  workflow_dispatch:
-
 jobs:
   run-scraper:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Haal repository op
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
+
+      - name: Installeer Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.7.2'
+
+      - name: Build Flutter web
+        run: flutter build web --release
 
       - name: Installeer Python
         uses: actions/setup-python@v4
@@ -30,11 +29,10 @@ jobs:
           echo "ALGOLIA_APP_ID=${{ secrets.ALGOLIA_APP_ID }}" >> .env
           echo "ALGOLIA_ADMIN_KEY=${{ secrets.ALGOLIA_ADMIN_KEY }}" >> .env
 
-      - name: Draai scraper-script
+      - name: Draai scraper en kopieer JSON
         run: |
           python kortingfinder_complete.py
-          mkdir -p public
-          cp kortingsresultaten_compleet.json public/kortingsresultaten_compleet.json
+          cp kortingsresultaten_compleet.json build/web/kortingsresultaten_compleet.json
 
       - name: Firebase deploy
         uses: FirebaseExtended/action-hosting-deploy@v0
@@ -42,3 +40,4 @@ jobs:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_KORTINGFINDER }}
           channelId: live
+          projectId: kortingfinder
