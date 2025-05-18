@@ -2,23 +2,46 @@ name: Dagelijkse scraping
 
 on:
   schedule:
-    - cron: '0 8 * * *'  # elke dag om 8:00
-  workflow_dispatch:
+    - cron: '0 8 * * *'  # elke dag om 8:00 UTC (9:00 NL tijd)
+  workflow_dispatch:      # optioneel handmatig starten
 
 jobs:
   run-scraper:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-      - name: Installeer Python
+      - name: 📥 Haal repository op
+        uses: actions/checkout@v3
+
+      - name: 🐍 Installeer Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
-      - name: Installeer vereisten
-        run: pip install -r requirements.txt
-      - name: Draai scraper
-        run: python scraper.py
-      - name: Firebase deploy
+
+      - name: 📦 Installeer afhankelijkheden
+        run: |
+          pip install -r requirements.txt
+          pip install python-dotenv
+
+      - name: 🔐 Zet geheime API-sleutels in .env
+        run: |
+          echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}" >> .env
+          echo "SERP_API_KEY=${{ secrets.SERP_API_KEY }}" >> .env
+          echo "ALGOLIA_APP_ID=${{ secrets.ALGOLIA_APP_ID }}" >> .env
+          echo "ALGOLIA_ADMIN_KEY=${{ secrets.ALGOLIA_ADMIN_KEY }}" >> .env
+
+      - name: 🚀 Draai scraper-script
+        run: python kortingfinder_complete.py
+
+      - name: 🧾 Commit bijgewerkte JSON
+        run: |
+          git config user.name "kortingbot"
+          git config user.email "bot@kortingfinder.app"
+          git add kortingsresultaten_compleet.json
+          git commit -m "🔄 Dagelijkse update JSON via scraper"
+          git push
+
+      - name: 🚀 Firebase deploy
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: "${{ secrets.GITHUB_TOKEN }}"
