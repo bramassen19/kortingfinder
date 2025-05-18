@@ -3,6 +3,9 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import openai
+import os
+from dotenv import load_dotenv
+
 
 # 🔐 API-sleutels
 SERP_API_KEY = "ee016c0014f352b8633831e40522eabb5145bb14223f4e0a51b5317a31450bc8"
